@@ -44,7 +44,7 @@ sstol=1e-12 ;
 
 % LOAD THE DATA
 
-load hoarding.dat ;
+load('hoarding.dat') ;
 
 c=hoarding(:,1) ;
 dk=hoarding(:,2) ;
